@@ -1,5 +1,4 @@
 
-
 h1 {
     font-family: cursive;
     text-align: center;
@@ -33,7 +32,7 @@ h2 {
 .image {
     background-color: rgb(240, 128, 128);
     border: none;
-    border-radius: 50px;;
+    border-radius: 50px;
     transition: 100ms;
 }
 
