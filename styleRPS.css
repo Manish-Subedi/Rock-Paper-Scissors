@@ -1,0 +1,63 @@
+
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    margin: 100px;
+    border-style: ridge; 
+    background-color: rgba(0, 255, 42, 0.432);
+    border-width: 10px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: xx-large;
+    text-align: center;
+    font-family: cursive;
+    border-style: solid; 
+    background-color: rgb(112, 142, 161);
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.images {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    background-color: rgb(240, 128, 128);
+    border: none;
+    border-radius: 50px;;
+    transition: 100ms;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.image:focus {
+    outline: none;
+    background-color: rgb(240, 128, 128);
+}
+
+.results {
+    font-style: normal;
+    font-size: xx-large;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center; 
+}
+
+.result-score {
+    margin-left: 10px;
+    font-size: 50%;
+    color: rgb(51, 51, 51);
+}
