@@ -2,33 +2,49 @@
 <HTML lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-sclae=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" type="text/css" href="styleRPS.css">
     <script defer src="scriptRPS.js"></script>
   </head>
   <body>
+
     <h1>ROCK PAPER SCISSORS</h1> 
-    <!--<img class="image" src="background.png">-->
+    
     <h2>Please make a selection to start the game</h2>
+
     <div>
         <p id="Name"></p>
     </div>
-    <div class="images">
-      <button class="image"><img src="rock.png" width=50%></img></button>
-      <button class="image"><img src="paper.png" width=50%></img></button>
-      <button class="image"><img src="scissors.png" width=50%></img></button>
+    
+    <div class="selections">
+
+      <button class="selection" data-selection="rock">
+        <img src="rock.png" width=50%></img>
+      </button>
+      
+      <button class="selection" data-selection="paper">
+        <img src="paper.png" width=50%></img>
+      </button>
+      
+      <button class="selection" data-selection="scissors">
+        <img src="scissors.png" width=50%></img>
+      </button>
+
     </div>
+
     <div class="results">
+
       <div>
           <b>You</b>
-          <p id="result-score">0</p>
+          <span class="your-score" data-your-score>0</span>
       </div>
-      <div>
+
+      <div data-final-column>
           <b>Computer</b>
-          <p id="result-score">0</p>
+          <span class="computer-score" data-your-score>0</span>
       </div>
-      
+
     </div>
 
   </body>
